@@ -7,42 +7,36 @@ body {
 
 .h1 { 
     font-variation-settings: "wght" 400, "wdth" 100;
-    font-size: 5.5em;
+    font-size: 6em;
     color: #F3DF5F;
     position: fixed;
     top: 0;
     left: 0;
     margin-left: 50px;
-    animation: title 1s linear;
+    animation: title .9s linear;
 }
 
 @keyframes title {
     0% {
-        font-size: 13em;
+        font-size: 12em;
         /* top: 80%;
         left: 50%; */
         opacity: 0;
         background-color: #019245;
     }
     25% {
-        font-size: 9em;
+        font-size: 10em;
     }
     50% {
-        font-size: 7em;
-    }
-    75% {
-        font-size: 6em;
+        font-size: 8em;
     }
     100% {
-        font-size: 5.5em;
+        font-size: 6em;
         /* top: 20px;
         left: 20px; */
         opacity: 1;
     }
 }
-
-
-
 
 .h2 {
     font-variation-settings: "wght" 200, "wdth" 100;
@@ -50,7 +44,7 @@ body {
     letter-spacing: 1px;
     color: #F3DF5F;
     position: fixed;
-    top: 145px;
+    top: 148px;
     left: 0;
     margin-left: 50px;
 }

@@ -16,7 +16,7 @@ body {
     animation: title .9s linear;
 }
 
-@keyframes title {
+/* @keyframes title {
     0% {
         font-size: 12em;
         opacity: 0;
@@ -34,7 +34,7 @@ body {
         font-size: 6em;
         opacity: 1;
     }
-}
+} */
 
 .h2 {
     font-variation-settings: "wght" 200, "wdth" 100;

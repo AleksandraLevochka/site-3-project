@@ -1,0 +1,49 @@
+@import url("https://use.typekit.net/gmy4zwz.css");
+
+body {
+    font-family: "scale-variable", sans-serif;
+    background-color: #019245;
+}
+
+.h1 { 
+    font-variation-settings: "wght" 400, "wdth" 100;
+    font-size: 5.5em;
+    color: #F3DF5F;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-left: 50px;
+}
+
+.h2 {
+    font-variation-settings: "wght" 200, "wdth" 100;
+    font-size: 1.3em;
+    letter-spacing: 1px;
+    color: #F3DF5F;
+    position: fixed;
+    top: 145px;
+    left: 0;
+    margin-left: 50px;
+}
+
+.p {
+    font-variation-settings: "wght" 200, "wdth" 100;
+    font-size: 1em;
+    color: #F3DF5F;
+    position: fixed;
+    top: 220px;
+    left: 0;
+    margin-left: 50px;
+}
+
+.borough-label {
+    font-variation-settings: "wght" 250, "wdth" 100;
+    font-size: 1.4em;
+    color: #F3DF5F;
+    letter-spacing: 1px;
+
+    position: absolute;
+    top: -30px; /* Adjust this value to position the label above the ball */
+    left: 50%;
+    transform: translateX(-50%);
+  }

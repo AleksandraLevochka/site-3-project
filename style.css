@@ -13,7 +13,36 @@ body {
     top: 0;
     left: 0;
     margin-left: 50px;
+    animation: title 1s linear;
 }
+
+@keyframes title {
+    0% {
+        font-size: 13em;
+        /* top: 80%;
+        left: 50%; */
+        opacity: 0;
+        background-color: #019245;
+    }
+    25% {
+        font-size: 9em;
+    }
+    50% {
+        font-size: 7em;
+    }
+    75% {
+        font-size: 6em;
+    }
+    100% {
+        font-size: 5.5em;
+        /* top: 20px;
+        left: 20px; */
+        opacity: 1;
+    }
+}
+
+
+
 
 .h2 {
     font-variation-settings: "wght" 200, "wdth" 100;
@@ -46,4 +75,6 @@ body {
     top: -30px; /* Adjust this value to position the label above the ball */
     left: 50%;
     transform: translateX(-50%);
-  }
+}
+
+

@@ -5174,11 +5174,11 @@ const boroughMap = {
 };
 
 const pageURLs = [
-  "Brooklyn/index.html",
-  "Manhattan/index.html",
-  "Queens/index.html",
-  "Long Island/index.html",
-  "Bronx/index.html",
+  "brooklyn/index.html",
+  "manhattan/index.html",
+  "queens/index.html",
+  "long island/index.html",
+  "bronx/index.html",
 ];
 
 function createBasketBall(ball_number, boroughName, pageURL) {
